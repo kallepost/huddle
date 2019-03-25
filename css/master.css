@@ -2,6 +2,16 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Poppins';
+  font-size: 18;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h2 {
+font-size: 1.2rem;
 }
 
 .top-container {
@@ -14,6 +24,7 @@ body {
   /*no good*/
   background-color: #F3F8FF;
   padding-left: 20px;
+  padding-bottom: 80px;
 }
 
 .inside-top-continer {
@@ -53,7 +64,7 @@ body {
   text-decoration: none;
 }
 
-#Get-started-button {
+.Get-started-button {
   position: absolute;
   left: 0px;
   margin-top: 40px;
@@ -69,7 +80,7 @@ body {
   text-decoration: none;
 }
 
-#Get-started-button:hover {
+.Get-started-button:hover {
   background: #3cb0fd;
   background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
   background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
@@ -91,29 +102,56 @@ body {
 
 .inside-middle-container {
   width: 70%;
-  margin: 100px auto;
+  margin: 40px auto;
   text-align: left;
-  border-style: dotted;
+  border-style: solid;
   border-width: 2px;
-  border-radius: 5px;
-  padding: 40px;
+  border-radius: 8px;
+  border-color: #f5f0f5;
+  padding: 60px 30px 30px 30px;
+
 }
 
 .grow-together-image {
-  width: 20%;
+  width: 25%;
   float: right;
+  margin: auto;
 }
 
 .flowing-image {
-  width: 20%;
+  width: 25%;
   float: left;
 }
 
 .your-uses-image {
-  width: 20%;
+  width: 25%;
   float: right;
 }
 
 .paragraf-text {
   padding-bottom: 50px;
+}
+
+.ready-to-build-container {
+  position: absolute;
+  background-color: white;
+    border-radius: 8px;
+    right: 400px;
+
+
+}
+
+.bottom-container {
+
+  background-color: #686f8c;
+  margin-top: 100px;
+}
+
+#Huddle-logo-bw{
+  position: absolute;
+  left: 0px;
+  height: 5%;
+  padding-left: 20px;
+  -webkit-filter: grayscale(100%);
+filter: grayscale(100%);
 }
