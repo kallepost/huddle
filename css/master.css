@@ -11,11 +11,10 @@ h1 {
 }
 
 h2 {
-font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .top-container {
-
   margin: auto;
   background-image: url("../images/bg-hero-desktop.svg");
   position: relative;
@@ -109,8 +108,32 @@ font-size: 1.2rem;
   border-radius: 8px;
   border-color: #f5f0f5;
   padding: 60px 30px 30px 30px;
+}
+
+.ready-to-build-container {
+  position: sticky;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  border-color: red;
+  padding: 20px 40px 40px 20px;
+  width: 50%;
+  margin: auto;
+
+/*
+  width: 70%;
+  margin: 40px auto;
+  text-align: left;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  border-color: #f5f0f5;
+  padding: 60px 30px 30px 30px;
+  */
 
 }
+
 
 .grow-together-image {
   width: 25%;
@@ -132,26 +155,39 @@ font-size: 1.2rem;
   padding-bottom: 50px;
 }
 
-.ready-to-build-container {
-  position: absolute;
-  background-color: white;
-    border-radius: 8px;
-    right: 400px;
 
+.Get-started-button-2 {
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 18px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #88678a;
+  padding: 10px 29px 10px 29px;
+  text-decoration: none;
+}
 
+.Get-started-button-2:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
 }
 
 .bottom-container {
-
   background-color: #686f8c;
   margin-top: 100px;
 }
 
-#Huddle-logo-bw{
+#Huddle-logo-bw {
   position: absolute;
   left: 0px;
   height: 5%;
   padding-left: 20px;
   -webkit-filter: grayscale(100%);
-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
